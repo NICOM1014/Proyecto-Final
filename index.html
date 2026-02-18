@@ -1,0 +1,599 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Linux Mint: Un sistema operativo elegante, potente y de código abierto. Libertad, estabilidad y facilidad de uso en un solo lugar.">
+    <meta name="keywords" content="Linux Mint, sistema operativo, código abierto, software libre, Ubuntu, Cinnamon, MATE, XFCE">
+    <title>Linux Mint — Libertad, Elegancia y Potencia en tu Computadora</title>
+
+    <!-- Fuentes mejoradas -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌿</text></svg>">
+</head>
+<body>
+
+    <!-- Navbar mejorada con efecto vidrio -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <span class="logo-icon">🌿</span>
+                <span class="text-mint">Linux</span><span class="text-dark">Mint</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#que-es">¿Qué es?</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ventajas">Ventajas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#custom">Ediciones</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#comunidad">Comunidad</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pasos">Empezar</a></li>
+                </ul>
+                <a href="https://linuxmint.com/download.php" target="_blank" class="btn btn-download-nav ms-lg-3">
+                    <span class="btn-icon">↓</span> Descargar Gratis
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section completamente rediseñada -->
+    <header id="hero" class="hero-section">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="hero-badge">Sistema Operativo Libre</div>
+                    <h1 class="hero-title">Experimenta la <span class="text-gradient">Libertad Digital</span></h1>
+                    <p class="hero-subtitle">Linux Mint combina la potencia de Linux con una elegancia intuitiva. Moderno, estable y completamente tuyo.</p>
+                    
+                    <div class="hero-stats d-flex gap-4 mb-4">
+                        <div class="stat">
+                            <div class="stat-number">+100M</div>
+                            <div class="stat-label">Descargas</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">$0</div>
+                            <div class="stat-label">Sin Costos</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">3</div>
+                            <div class="stat-label">Ediciones</div>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-buttons d-flex gap-3 flex-wrap">
+                        <a href="#que-es" class="btn btn-mint-primary px-4 py-3">
+                            <span class="btn-icon">→</span> Explorar Mint
+                        </a>
+                        <a href="https://linuxmint.com/download.php" target="_blank" class="btn btn-download px-4 py-3">
+                            <span class="btn-icon">↓</span> Descargar Ahora
+                        </a>
+                        <a href="#custom" class="btn btn-editions px-4 py-3">
+                            <span class="btn-icon">📋</span> Ver Ediciones
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-graphic">
+                        <div class="desktop-preview">
+                            <div class="desktop-header">
+                                <div class="desktop-dots">
+                                    <span class="dot red"></span>
+                                    <span class="dot yellow"></span>
+                                    <span class="dot green"></span>
+                                </div>
+                                <span class="desktop-title">linux-mint</span>
+                            </div>
+                            <div class="desktop-content">
+                                <div class="app-icons">
+                                    <div class="app-icon">🖥</div>
+                                    <div class="app-icon">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2H5a2 2 0 00-2 2z"></path>
+                                            <path d="M16 21V5a2 2 0 00-2-2H6a2 2 0 00-2 2v16"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="app-icon">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <circle cx="12" cy="12" r="10"></circle>
+                                            <path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="app-icon">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                            <path d="M22 6l-10 7L2 6"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                
+                                <div class="terminal-window">
+                                    <div class="terminal-header">
+                                        <span class="terminal-title">terminal@mint:~</span>
+                                    </div>
+                                    <div class="terminal-content">
+                                        <span class="terminal-line">$ mint --info</span>
+                                        <span class="terminal-line">> Sistema: Operativo</span>
+                                        <span class="terminal-line">> Código: Abierto</span>
+                                        <span class="terminal-line">> Futuro: Libre</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </header>
+
+    <!-- Sección Qué es - Mejorada con timeline -->
+    <section id="que-es" class="py-6">
+        <div class="container">
+            <div class="section-header text-center mb-6">
+                <h2 class="section-title">Más que un Sistema, una <span class="text-mint">Filosofía</span></h2>
+                <p class="section-subtitle">Nacido de la comunidad, diseñado para humanos</p>
+            </div>
+            
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-year">2006</div>
+                            <div class="timeline-content">
+                                <h4>Nacimiento de Mint</h4>
+                                <p>Primera versión basada en Kubuntu, con el objetivo de hacer Linux accesible para todos.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">2011</div>
+                            <div class="timeline-content">
+                                <h4>Cinnamon Desktop</h4>
+                                <p>Creación del entorno de escritorio Cinnamon, moderno y altamente personalizable.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">2023</div>
+                            <div class="timeline-content">
+                                <h4>Mint 21 "Vanessa"</h4>
+                                <p>La versión LTS más estable y compatible hasta la fecha, con soporte hasta 2027.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="info-card-glass p-5">
+                        <h3 class="mb-4">¿Por qué <span class="text-mint">Mint</span> es diferente?</h3>
+                        
+                        <div class="feature-list">
+                            <div class="feature-item">
+                                <div class="feature-icon">✓</div>
+                                <div>
+                                    <h5>Listo para usar</h5>
+                                    <p class="small text-muted">Incluye todo lo necesario: navegador, suite ofimática, reproductores multimedia y más.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="feature-item">
+                                <div class="feature-icon">✓</div>
+                                <div>
+                                    <h5>Seguridad por diseño</h5>
+                                    <p class="small text-muted">Sin virus, sin spyware, sin telemetría oculta. Tú controlas tu sistema.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="feature-item">
+                                <div class="feature-icon">✓</div>
+                                <div>
+                                    <h5>Comunidad global</h5>
+                                    <p class="small text-muted">Soporte en múltiples idiomas, foros activos y documentación completa.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Ventajas - Rediseñada completamente -->
+    <section id="ventajas" class="py-6 bg-gradient-dark">
+        <div class="container">
+            <div class="section-header text-center mb-6">
+                <h2 class="section-title text-white">La <span class="text-gradient">Evolución</span> que tu Computadora Merece</h2>
+                <p class="section-subtitle text-light">Descubre por qué millones han elegido Mint</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-xl-3 col-md-6">
+                    <div class="advantage-card">
+                        <div class="advantage-icon">
+                            <div class="icon-wrapper">⚡</div>
+                        </div>
+                        <h4 class="mt-4">Rendimiento Óptimo</h4>
+                        <p class="text-muted">Dale nueva vida a hardware antiguo. Mint es ligero, eficiente y no ralentiza tu equipo con procesos innecesarios.</p>
+                        <div class="advantage-meta">
+                            <span class="meta-item">512MB RAM mínima</span>
+                            <span class="meta-item">15GB de disco</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-xl-3 col-md-6">
+                    <div class="advantage-card">
+                        <div class="advantage-icon">
+                            <div class="icon-wrapper">🔒</div>
+                        </div>
+                        <h4 class="mt-4">Seguridad Nativa</h4>
+                        <p class="text-muted">Arquitectura de permisos Unix, actualizaciones automáticas de seguridad y protección integral sin antivirus.</p>
+                        <div class="advantage-meta">
+                            <span class="meta-item">Sin malware</span>
+                            <span class="meta-item">Cifrado opcional</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-xl-3 col-md-6">
+                    <div class="advantage-card">
+                        <div class="advantage-icon">
+                            <div class="icon-wrapper">🎨</div>
+                        </div>
+                        <h4 class="mt-4">Elegancia Personalizable</h4>
+                        <p class="text-muted">Interfaces modernas, temas, iconos y efectos visuales ajustables. Haz que tu escritorio sea verdaderamente tuyo.</p>
+                        <div class="advantage-meta">
+                            <span class="meta-item">100+ temas</span>
+                            <span class="meta-item">Ajustes detallados</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-xl-3 col-md-6">
+                    <div class="advantage-card">
+                        <div class="advantage-icon">
+                            <div class="icon-wrapper">💸</div>
+                        </div>
+                        <h4 class="mt-4">Libertad Total</h4>
+                        <p class="text-muted">Gratuito para siempre, sin costos ocultos. Usa, modifica y distribuye. El software como bien común.</p>
+                        <div class="advantage-meta">
+                            <span class="meta-item">$0 coste</span>
+                            <span class="meta-item">Licencia GPL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Ediciones -->
+    <section id="custom" class="py-6">
+        <div class="container">
+            <div class="section-header text-center mb-6">
+                <h2 class="section-title">Elige tu <span class="text-mint">Edición</span> Perfecta</h2>
+                <p class="section-subtitle">Tres versiones, una filosofía: ponerte a ti en el centro</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="flavor-card flavor-cinnamon">
+                        <div class="flavor-header">
+                            <div class="flavor-icon">C</div>
+                            <div class="flavor-badge">Recomendado</div>
+                        </div>
+                        <h3 class="flavor-title">Cinnamon</h3>
+                        <p class="flavor-subtitle">Moderno, elegante y potente</p>
+                        
+                        <div class="flavor-features">
+                            <div class="feature"><span class="feature-dot"></span> Efectos visuales avanzados</div>
+                            <div class="feature"><span class="feature-dot"></span> Panel personalizable</div>
+                            <div class="feature"><span class="feature-dot"></span> Compatibilidad total</div>
+                            <div class="feature"><span class="feature-dot"></span> Ideal para hardware moderno</div>
+                        </div>
+                        
+                        <div class="flavor-specs">
+                            <div class="spec">
+                                <span class="spec-label">RAM recomendada:</span>
+                                <span class="spec-value">2GB+</span>
+                            </div>
+                            <div class="spec">
+                                <span class="spec-label">Espacio:</span>
+                                <span class="spec-value">20GB</span>
+                            </div>
+                        </div>
+                        
+                        <div class="flavor-cta">
+                            <a href="https://linuxmint.com/edition.php?id=302" target="_blank" class="btn btn-cinnamon">Descargar Cinnamon</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4">
+                    <div class="flavor-card flavor-mate">
+                        <div class="flavor-header">
+                            <div class="flavor-icon">M</div>
+                            <div class="flavor-badge">Equilibrado</div>
+                        </div>
+                        <h3 class="flavor-title">MATE</h3>
+                        <p class="flavor-subtitle">Clásico, estable y funcional</p>
+                        
+                        <div class="flavor-features">
+                            <div class="feature"><span class="feature-dot"></span> Interfaz tradicional</div>
+                            <div class="feature"><span class="feature-dot"></span> Extremadamente estable</div>
+                            <div class="feature"><span class="feature-dot"></span> Bajo consumo</div>
+                            <div class="feature"><span class="feature-dot"></span> Perfecto para productividad</div>
+                        </div>
+                        
+                        <div class="flavor-specs">
+                            <div class="spec">
+                                <span class="spec-label">RAM recomendada:</span>
+                                <span class="spec-value">1GB+</span>
+                            </div>
+                            <div class="spec">
+                                <span class="spec-label">Espacio:</span>
+                                <span class="spec-value">15GB</span>
+                            </div>
+                        </div>
+                        
+                        <div class="flavor-cta">
+                            <a href="https://linuxmint.com/edition.php?id=297" target="_blank" class="btn btn-mate">Descargar MATE</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4">
+                    <div class="flavor-card flavor-xfce">
+                        <div class="flavor-header">
+                            <div class="flavor-icon">X</div>
+                            <div class="flavor-badge">Ultraligero</div>
+                        </div>
+                        <h3 class="flavor-title">XFCE</h3>
+                        <p class="flavor-subtitle">Veloz, simple y eficiente</p>
+                        
+                        <div class="flavor-features">
+                            <div class="feature"><span class="feature-dot"></span> Consumo mínimo de RAM</div>
+                            <div class="feature"><span class="feature-dot"></span> Inicio ultrarrápido</div>
+                            <div class="feature"><span class="feature-dot"></span> Hardware antiguo</div>
+                            <div class="feature"><span class="feature-dot"></span> Máxima eficiencia</div>
+                        </div>
+                        
+                        <div class="flavor-specs">
+                            <div class="spec">
+                                <span class="spec-label">RAM recomendada:</span>
+                                <span class="spec-value">512MB+</span>
+                            </div>
+                            <div class="spec">
+                                <span class="spec-label">Espacio:</span>
+                                <span class="spec-value">10GB</span>
+                            </div>
+                        </div>
+                        
+                        <div class="flavor-cta">
+                            <a href="https://linuxmint.com/edition.php?id=303" target="_blank" class="btn btn-xfce">Descargar XFCE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nueva sección Comunidad -->
+    <section id="comunidad" class="py-6 bg-light">
+        <div class="container">
+            <div class="section-header text-center mb-6">
+                <h2 class="section-title">Impulsado por una <span class="text-mint">Comunidad</span> Global</h2>
+                <p class="section-subtitle">No estás solo en tu viaje Linux</p>
+            </div>
+            
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <div class="community-stats">
+                        <div class="stat-card">
+                            <div class="stat-number">1,000+</div>
+                            <div class="stat-label">Desarrolladores contribuyentes</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Idiomas soportados</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">24/7</div>
+                            <div class="stat-label">Soporte en foros</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Código abierto</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="community-highlight">
+                        <blockquote class="testimonial">
+                            <p>"Linux Mint me devolvió el control sobre mi computadora. Después de años de actualizaciones forzadas y software espía, finalmente tengo un sistema que respeta mi privacidad y mis decisiones."</p>
+                            <footer class="testimonial-author">
+                                <strong>Ana García</strong>, Profesora de informática
+                            </footer>
+                        </blockquote>
+                        
+                        <div class="community-links mt-4">
+                            <a href="https://linuxmint.com/documentation.php" target="_blank" class="community-link">
+                                <span class="link-icon">📚</span> Documentación oficial
+                            </a>
+                            <a href="https://forums.linuxmint.com/" target="_blank" class="community-link">
+                                <span class="link-icon">💬</span> Foro en español
+                            </a>
+                            <a href="https://linuxmint.com/installation_guide.php" target="_blank" class="community-link">
+                                <span class="link-icon">🛠️</span> Guías de instalación
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Pasos Mejorada -->
+    <section id="pasos" class="py-6">
+        <div class="container">
+            <div class="section-header text-center mb-6">
+                <h2 class="section-title">Comienza en <span class="text-mint">4 Pasos</span> Sencillos</h2>
+                <p class="section-subtitle">De la descarga al escritorio en menos de 30 minutos</p>
+            </div>
+            
+            <div class="steps-container">
+                <div class="step-line"></div>
+                
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="step-card">
+                            <div class="step-number">01</div>
+                            <div class="step-content">
+                                <h5>Descarga</h5>
+                                <p>Elige tu versión favorita desde el sitio oficial. Verifica la integridad con SHA256.</p>
+                                <div class="step-tip">
+                                    <small><strong>Tip:</strong> La versión LTS tiene soporte por 5 años.</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-6">
+                        <div class="step-card">
+                            <div class="step-number">02</div>
+                            <div class="step-content">
+                                <h5>Prepara USB</h5>
+                                <p>Usa balenaEtcher, Rufus o dd. Necesitas una unidad de al menos 4GB.</p>
+                                <div class="step-tip">
+                                    <small><strong>Tip:</strong> El modo "DD Image" en Rufus funciona mejor.</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-6">
+                        <div class="step-card">
+                            <div class="step-number">03</div>
+                            <div class="step-content">
+                                <h5>Prueba Live</h5>
+                                <p>Arranca desde USB y prueba Mint sin instalar nada. Todo funciona desde la memoria.</p>
+                                <div class="step-tip">
+                                    <small><strong>Tip:</strong> Verifica que tu hardware sea compatible.</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-6">
+                        <div class="step-card">
+                            <div class="step-number">04</div>
+                            <div class="step-content">
+                                <h5>Instala y Personaliza</h5>
+                                <p>Sigue el asistente visual. Elige tu idioma, zona horaria y particionado de disco.</p>
+                                <div class="step-tip">
+                                    <small><strong>Tip:</strong> Puedes instalar junto a Windows si lo deseas.</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-6">
+                <div class="cta-box p-5">
+                    <h3 class="mb-3">¿Listo para la Libertad?</h3>
+                    <p class="text-muted mb-4">Únete a millones de usuarios que ya disfrutan de un sistema operativo respetuoso, potente y elegante.</p>
+                    <a href="https://linuxmint.com/download.php" target="_blank" class="btn btn-mint-primary btn-lg px-5 py-3">
+                        <span class="btn-icon">↓</span> Descargar Linux Mint 21.3
+                    </a>
+                    <p class="small text-muted mt-3">ISO de 2.3GB • Compatible con Windows/Mac/Linux • 100% Gratuito</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Mejorado -->
+    <footer class="footer-section py-6">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <div class="footer-brand mb-4">
+                        <span class="logo-icon">🌿</span>
+                        <span class="text-mint fw-bold">Linux</span><span class="text-dark fw-bold">Mint</span>
+                    </div>
+                    <p class="text-muted">Un proyecto comunitario dedicado a hacer la computación accesible, ética y centrada en las personas desde 2006.</p>
+                    
+                    <div class="footer-social mt-4">
+                        <a href="https://github.com/linuxmint" target="_blank" class="social-icon">GH</a>
+                        <a href="https://twitter.com/linux_mint" target="_blank" class="social-icon">TW</a>
+                        <a href="https://blog.linuxmint.com/" target="_blank" class="social-icon">BL</a>
+                        <a href="https://www.reddit.com/r/linuxmint/" target="_blank" class="social-icon">RD</a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-4">
+                    <h6 class="footer-title">Descargas</h6>
+                    <ul class="footer-links">
+                        <li><a href="https://linuxmint.com/edition.php?id=302" target="_blank">Cinnamon</a></li>
+                        <li><a href="https://linuxmint.com/edition.php?id=297" target="_blank">MATE</a></li>
+                        <li><a href="https://linuxmint.com/edition.php?id=303" target="_blank">XFCE</a></li>
+                        <li><a href="https://linuxmint.com/oldreleases.php" target="_blank">Versiones anteriores</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-2 col-md-4">
+                    <h6 class="footer-title">Recursos</h6>
+                    <ul class="footer-links">
+                        <li><a href="https://linuxmint.com/documentation.php" target="_blank">Documentación</a></li>
+                        <li><a href="https://forums.linuxmint.com/" target="_blank">Foros</a></li>
+                        <li><a href="https://blog.linuxmint.com/" target="_blank">Blog</a></li>
+                        <li><a href="https://linuxmint-installation-guide.readthedocs.io/" target="_blank">Wiki</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-2 col-md-4">
+                    <h6 class="footer-title">Proyecto</h6>
+                    <ul class="footer-links">
+                        <li><a href="https://linuxmint.com/donors.php" target="_blank">Donaciones</a></li>
+                        <li><a href="https://github.com/linuxmint" target="_blank">Contribuir</a></li>
+                        <li><a href="https://linuxmint.com/teams.php" target="_blank">Equipo</a></li>
+                        <li><a href="https://linuxmint.com/philosophy.php" target="_blank">Filosofía</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-2">
+                    <div class="footer-newsletter">
+                        <h6 class="footer-title">Noticias Mint</h6>
+                        <p class="small text-muted">Recibe actualizaciones sobre nuevas versiones y características.</p>
+                        <div class="input-group mt-3">
+                            <input type="email" class="form-control" placeholder="tu@email.com" aria-label="Email">
+                            <button class="btn btn-mint" type="button">→</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom mt-6 pt-5 border-top">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="small text-muted mb-0">© 2026 Proyecto Linux Mint. Código abierto bajo licencia GPL.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <p class="small text-muted mb-0">"Software libre, sociedad libre" — Richard Stallman</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
