@@ -1025,9 +1025,9 @@ body {
 }
 
 .footer-newsletter .form-control {
-    background: rgba(196, 18, 18, 0.1);
+    background: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.2);
-    color: rgb(214, 23, 23);
+    color: white;
 }
 
 .footer-newsletter .form-control::placeholder {
