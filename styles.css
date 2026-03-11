@@ -92,6 +92,21 @@ body {
     vertical-align: middle;
 }
 
+img.logo-icon {
+    width: 35px;
+    height: auto;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}
+
+svg.logo-icon {
+    width: 35px;
+    height: 35px;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+    display: inline-block;
+}
+
 .nav-link {
     font-weight: 500 !important;
     color: var(--text-dark) !important;
@@ -656,6 +671,14 @@ body {
     overflow: hidden;
 }
 
+.flavor-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: var(--radius-md);
+    margin-bottom: 1rem;
+}
+
 .flavor-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 20px 40px rgba(65, 166, 94, 0.1);
@@ -1008,20 +1031,22 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
-    background: rgba(255, 255, 255, 0.1);
+    width: 45px;
+    height: 45px;
+    background: var(--mint-main);
     border-radius: 50%;
     color: white;
     text-decoration: none;
-    transition: var(--transition-fast);
+    transition: var(--transition-normal);
     font-weight: 600;
-    font-size: 0.875rem;
+    font-size: 1rem;
+    margin-right: 0.75rem;
 }
 
 .social-icon:hover {
-    background: var(--mint-main);
+    background: var(--mint-dark);
     transform: translateY(-3px);
+    box-shadow: var(--shadow-md);
 }
 
 .footer-newsletter .form-control {
@@ -1038,6 +1063,19 @@ body {
     background: var(--mint-main) !important;
     color: white !important;
     border: none !important;
+}
+
+.fan-page-notice {
+    background: rgba(65, 166, 94, 0.15);
+    border-left: 3px solid var(--mint-main);
+    padding: 0.75rem 1rem;
+    border-radius: var(--radius-sm);
+    margin-top: 1rem;
+}
+
+.fan-page-notice i {
+    margin-right: 0.5rem;
+    color: var(--mint-main);
 }
 
 /* ================================

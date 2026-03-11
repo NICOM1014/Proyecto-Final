@@ -10,10 +10,11 @@
     <!-- Fuentes mejoradas -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌿</text></svg>">
+    <link rel="icon" type="image/x-icon" href="https://linuxmint.com/favicon.ico">
 </head>
 <body>
 
@@ -21,7 +22,7 @@
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
             <a class="navbar-brand fw-bold" href="#">
-                <span class="logo-icon">🌿</span>
+                <img src="./linux_mint.png" alt="Linux Mint Logo" class="logo-icon">
                 <span class="text-mint">Linux</span><span class="text-dark">Mint</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
@@ -36,7 +37,7 @@
                     <li class="nav-item"><a class="nav-link" href="#pasos">Empezar</a></li>
                 </ul>
                 <a href="https://linuxmint.com/download.php" target="_blank" class="btn btn-download-nav ms-lg-3">
-                    <span class="btn-icon">↓</span> Descargar Gratis
+                    <i class="fas fa-download btn-icon"></i> Descargar Gratis
                 </a>
             </div>
         </div>
@@ -69,13 +70,13 @@
                     
                     <div class="hero-buttons d-flex gap-3 flex-wrap">
                         <a href="#que-es" class="btn btn-mint-primary px-4 py-3">
-                            <span class="btn-icon">→</span> Explorar Mint
+                            <i class="fas fa-arrow-right btn-icon"></i> Explorar Mint
                         </a>
                         <a href="https://linuxmint.com/download.php" target="_blank" class="btn btn-download px-4 py-3">
-                            <span class="btn-icon">↓</span> Descargar Ahora
+                            <i class="fas fa-download btn-icon"></i> Descargar Ahora
                         </a>
                         <a href="#custom" class="btn btn-editions px-4 py-3">
-                            <span class="btn-icon">📋</span> Ver Ediciones
+                            <i class="fas fa-list btn-icon"></i> Ver Ediciones
                         </a>
                     </div>
                 </div>
@@ -92,7 +93,7 @@
                             </div>
                             <div class="desktop-content">
                                 <div class="app-icons">
-                                    <div class="app-icon">🖥</div>
+                                    <div class="app-icon"><i class="fas fa-desktop"></i></div>
                                     <div class="app-icon">
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                             <path d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2H5a2 2 0 00-2 2z"></path>
@@ -218,7 +219,7 @@
                 <div class="col-xl-3 col-md-6">
                     <div class="advantage-card">
                         <div class="advantage-icon">
-                            <div class="icon-wrapper">⚡</div>
+                            <div class="icon-wrapper"><i class="fas fa-bolt"></i></div>
                         </div>
                         <h4 class="mt-4">Rendimiento Óptimo</h4>
                         <p class="text-muted">Dale nueva vida a hardware antiguo. Mint es ligero, eficiente y no ralentiza tu equipo con procesos innecesarios.</p>
@@ -232,7 +233,7 @@
                 <div class="col-xl-3 col-md-6">
                     <div class="advantage-card">
                         <div class="advantage-icon">
-                            <div class="icon-wrapper">🔒</div>
+                            <div class="icon-wrapper"><i class="fas fa-shield-alt"></i></div>
                         </div>
                         <h4 class="mt-4">Seguridad Nativa</h4>
                         <p class="text-muted">Arquitectura de permisos Unix, actualizaciones automáticas de seguridad y protección integral sin antivirus.</p>
@@ -246,7 +247,7 @@
                 <div class="col-xl-3 col-md-6">
                     <div class="advantage-card">
                         <div class="advantage-icon">
-                            <div class="icon-wrapper">🎨</div>
+                            <div class="icon-wrapper"><i class="fas fa-palette"></i></div>
                         </div>
                         <h4 class="mt-4">Elegancia Personalizable</h4>
                         <p class="text-muted">Interfaces modernas, temas, iconos y efectos visuales ajustables. Haz que tu escritorio sea verdaderamente tuyo.</p>
@@ -260,7 +261,7 @@
                 <div class="col-xl-3 col-md-6">
                     <div class="advantage-card">
                         <div class="advantage-icon">
-                            <div class="icon-wrapper">💸</div>
+                            <div class="icon-wrapper"><i class="fas fa-money-bill-wave"></i></div>
                         </div>
                         <h4 class="mt-4">Libertad Total</h4>
                         <p class="text-muted">Gratuito para siempre, sin costos ocultos. Usa, modifica y distribuye. El software como bien común.</p>
@@ -289,6 +290,7 @@
                             <div class="flavor-icon">C</div>
                             <div class="flavor-badge">Recomendado</div>
                         </div>
+                        <img src="https://linuxmint.com/img/screenshots/cinnamon.png" alt="Linux Mint Cinnamon Edition" class="flavor-img">
                         <h3 class="flavor-title">Cinnamon</h3>
                         <p class="flavor-subtitle">Moderno, elegante y potente</p>
                         
@@ -322,6 +324,7 @@
                             <div class="flavor-icon">M</div>
                             <div class="flavor-badge">Equilibrado</div>
                         </div>
+                        <img src="https://linuxmint.com/img/screenshots/mate.png" alt="Linux Mint MATE Edition" class="flavor-img">
                         <h3 class="flavor-title">MATE</h3>
                         <p class="flavor-subtitle">Clásico, estable y funcional</p>
                         
@@ -355,6 +358,7 @@
                             <div class="flavor-icon">X</div>
                             <div class="flavor-badge">Ultraligero</div>
                         </div>
+                        <img src="https://linuxmint.com/img/screenshots/xfce.png" alt="Linux Mint XFCE Edition" class="flavor-img">
                         <h3 class="flavor-title">XFCE</h3>
                         <p class="flavor-subtitle">Veloz, simple y eficiente</p>
                         
@@ -426,13 +430,13 @@
                         
                         <div class="community-links mt-4">
                             <a href="https://linuxmint.com/documentation.php" target="_blank" class="community-link">
-                                <span class="link-icon">📚</span> Documentación oficial
+                                <i class="fas fa-book link-icon"></i> Documentación oficial
                             </a>
                             <a href="https://forums.linuxmint.com/" target="_blank" class="community-link">
-                                <span class="link-icon">💬</span> Foro en español
+                                <i class="fas fa-comments link-icon"></i> Foro en español
                             </a>
                             <a href="https://linuxmint.com/installation_guide.php" target="_blank" class="community-link">
-                                <span class="link-icon">🛠️</span> Guías de instalación
+                                <i class="fas fa-tools link-icon"></i> Guías de instalación
                             </a>
                         </div>
                     </div>
@@ -512,7 +516,7 @@
                     <h3 class="mb-3">¿Listo para la Libertad?</h3>
                     <p class="text-muted mb-4">Únete a millones de usuarios que ya disfrutan de un sistema operativo respetuoso, potente y elegante.</p>
                     <a href="https://linuxmint.com/download.php" target="_blank" class="btn btn-mint-primary btn-lg px-5 py-3">
-                        <span class="btn-icon">↓</span> Descargar Linux Mint 21.3
+                        <i class="fas fa-download btn-icon"></i> Descargar Linux Mint 21.3
                     </a>
                     <p class="small text-muted mt-3">ISO de 2.3GB • Compatible con Windows/Mac/Linux • 100% Gratuito</p>
                 </div>
@@ -526,16 +530,19 @@
             <div class="row g-5">
                 <div class="col-lg-4">
                     <div class="footer-brand mb-4">
-                        <span class="logo-icon">🌿</span>
-                        <span class="text-mint fw-bold">Linux</span><span class="text-dark fw-bold">Mint</span>
+                        <img src="./linux_mint.png" alt="Linux Mint Logo" class="logo-icon">
+                        <span class="text-mint fw-bold">Linux</span><span class="text-light fw-bold">Mint</span>
                     </div>
-                    <p class="text-muted">Un proyecto comunitario dedicado a hacer la computación accesible, ética y centrada en las personas desde 2006.</p>
+                    <p class="text-light">Un proyecto comunitario dedicado a hacer la computación accesible, ética y centrada en las personas desde 2006.</p>
+                    <div class="fan-page-notice mt-3">
+                        <small class="text-light"><i class="fas fa-info-circle"></i> <strong>Nota:</strong> Esta es una página de fans creada como exposición educativa del proyecto Linux Mint.</small>
+                    </div>
                     
                     <div class="footer-social mt-4">
-                        <a href="https://github.com/linuxmint" target="_blank" class="social-icon">GH</a>
-                        <a href="https://twitter.com/linux_mint" target="_blank" class="social-icon">TW</a>
-                        <a href="https://blog.linuxmint.com/" target="_blank" class="social-icon">BL</a>
-                        <a href="https://www.reddit.com/r/linuxmint/" target="_blank" class="social-icon">RD</a>
+                        <a href="https://github.com/linuxmint" target="_blank" class="social-icon" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://twitter.com/linux_mint" target="_blank" class="social-icon" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://blog.linuxmint.com/" target="_blank" class="social-icon" title="Blog"><i class="fas fa-rss"></i></a>
+                        <a href="https://www.reddit.com/r/linuxmint/" target="_blank" class="social-icon" title="Reddit"><i class="fab fa-reddit"></i></a>
                     </div>
                 </div>
                 
