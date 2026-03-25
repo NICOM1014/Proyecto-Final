@@ -1,5 +1,5 @@
 /* ================================
-   VARIABLES MEJORADAS
+    VARIABLES
    ================================ */
 :root {
     --mint-main: #41a65e;
@@ -45,7 +45,7 @@ body {
 }
 
 /* ================================
-   UTILIDADES MEJORADAS
+    UTILIDADES
    ================================ */
 .text-mint { color: var(--mint-main) !important; }
 .bg-mint-light { background-color: var(--mint-light) !important; }
@@ -64,7 +64,7 @@ body {
 .mb-6 { margin-bottom: 6rem !important; }
 
 /* ================================
-   NAVBAR MEJORADA (Efecto vidrio)
+    NAVBAR
    ================================ */
 .navbar {
     background: rgba(255, 255, 255, 0.95) !important;
@@ -142,7 +142,7 @@ svg.logo-icon {
 }
 
 /* ================================
-   HERO SECTION COMPLETAMENTE NUEVA
+    HERO SECTION
    ================================ */
 .hero-section {
     position: relative;
@@ -198,7 +198,6 @@ svg.logo-icon {
     margin-bottom: 2.5rem;
 }
 
-/* MEJORAS EN HERO STATS */
 .hero-stats {
     display: flex;
     gap: 2rem;
@@ -270,7 +269,6 @@ svg.logo-icon {
     box-shadow: var(--shadow-lg) !important;
 }
 
-/* BOTÓN DE EDICIONES (antes "Ver Sabores") */
 .btn-editions {
     background: transparent !important;
     color: var(--text-dark) !important;
@@ -293,10 +291,9 @@ svg.logo-icon {
     transform: translateY(-3px) !important;
 }
 
-/* MEJORAS EN ICONOS - MENOS EMOJIS, MÁS SIMPLICIDAD */
 .btn-icon {
     font-size: 1rem;
-    font-weight: normal;
+    
 }
 
 .hero-graphic {
@@ -308,8 +305,6 @@ svg.logo-icon {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-15px); }
 }
-
-/* MEJORAS EN DESKTOP PREVIEW */
 .desktop-preview {
     background: white;
     border-radius: var(--radius-lg);
@@ -357,7 +352,6 @@ svg.logo-icon {
     gap: 2rem;
 }
 
-/* Iconos SVG en lugar de emojis */
 .app-icons {
     display: flex;
     gap: 1.5rem;
@@ -389,13 +383,11 @@ svg.logo-icon {
     color: var(--mint-main);
 }
 
-/* Estilo para iconos de texto (sin emojis) */
 .app-icon:not(:has(svg)) {
     font-size: 1.5rem;
     color: var(--mint-main);
 }
 
-/* MEJORAS EN TERMINAL */
 .terminal-window {
     background: var(--dark-card);
     border-radius: var(--radius-md);
@@ -434,14 +426,6 @@ svg.logo-icon {
     color: #10b981;
 }
 
-.hero-scroll-indicator {
-    position: absolute;
-    bottom: 2rem;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-}
-
 .scroll-arrow {
     width: 30px;
     height: 50px;
@@ -470,7 +454,7 @@ svg.logo-icon {
 }
 
 /* ================================
-   SECCIONES MEJORADAS
+    SECCIONES
    ================================ */
 .section-header {
     margin-bottom: 4rem;
@@ -509,7 +493,7 @@ svg.logo-icon {
 }
 
 /* ================================
-   TIMELINE MEJORADA
+    TIMELINE
    ================================ */
 .timeline {
     position: relative;
@@ -563,7 +547,7 @@ svg.logo-icon {
 }
 
 /* ================================
-   CARDS MEJORADAS
+    CARDS
    ================================ */
 .info-card-glass {
     background: rgba(255, 255, 255, 0.8);
@@ -658,7 +642,7 @@ svg.logo-icon {
 }
 
 /* ================================
-   EDICIONES (FLAVORS)
+    EDICIONES LINUX MINT
    ================================ */
 .flavor-card {
     background: white;
@@ -846,7 +830,7 @@ svg.logo-icon {
 }
 
 /* ================================
-   COMUNIDAD
+    COMUNIDAD
    ================================ */
 .community-stats {
     display: grid;
@@ -924,9 +908,9 @@ svg.logo-icon {
     color: var(--mint-main);
 }
 
-/* ================================
-   PASOS MEJORADOS
-   ================================ */
+/*  =======================
+    PASOS
+    =======================*/
 .steps-container {
     position: relative;
     margin-bottom: 4rem;
@@ -962,7 +946,7 @@ svg.logo-icon {
 .step-number {
     font-size: 3rem;
     font-weight: 800;
-    color: var(--mint-light);
+    color: var(--dark-bg);
     line-height: 1;
     margin-bottom: 1rem;
 }
@@ -985,11 +969,11 @@ svg.logo-icon {
 }
 
 /* ================================
-   FOOTER MEJORADO
+    FOOTER
    ================================ */
 .footer-section {
     background: var(--dark-bg);
-    color: var(--text-light);
+    color: #ffffff;
 }
 
 .footer-brand {
@@ -999,7 +983,7 @@ svg.logo-icon {
 .footer-title {
     font-weight: 700;
     margin-bottom: 1.5rem;
-    color: white;
+    color: #ffffff;
 }
 
 .footer-links {
@@ -1012,7 +996,7 @@ svg.logo-icon {
 }
 
 .footer-links a {
-    color: #94a3b8;
+    color: #ffffff;
     text-decoration: none;
     transition: var(--transition-fast);
 }
@@ -1079,7 +1063,7 @@ svg.logo-icon {
 }
 
 /* ================================
-   RESPONSIVE MEJORADO
+    RESPONSIVE
    ================================ */
 @media (max-width: 992px) {
     .hero-title {
@@ -1137,6 +1121,10 @@ svg.logo-icon {
 }
 
 @media (max-width: 576px) {
+    .hero-graphics
+    {
+        top: 25px
+    }
     .hero-title {
         font-size: 2rem;
     }
@@ -1155,7 +1143,7 @@ svg.logo-icon {
 }
 
 /* ================================
-   ANIMACIONES ADICIONALES
+    ANIMACIONES ADICIONALES
    ================================ */
 @keyframes fadeInUp {
     from {
